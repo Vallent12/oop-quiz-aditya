@@ -7,9 +7,6 @@ public class Order {
     public Order(int itemCount, String Customer) {
         this.itemCount = itemCount;
         this.Customer = Customer;
-    }
-
-    public String getCustomer() {
 
     }
 }

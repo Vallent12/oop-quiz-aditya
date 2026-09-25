@@ -1,5 +1,7 @@
 package id.ac.polinema.oop;
 
+import java.util.jar.Attributes.Name;
+
 /**
  * A cafe customer.
  *
@@ -40,7 +42,7 @@ public class Customer {
      *
      * @param name new name
      */
-
+    public Name a = (null, null);
     public void setName(String name) {
         throw new UnsupportedOperationException("Not implemented yet");
     }
